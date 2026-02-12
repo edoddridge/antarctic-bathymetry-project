@@ -25,4 +25,6 @@ Now we need to modify the config to point to the new files
 
     sed -i '' 's@/g/data/tm70/cy8964/mom6/input/input-8km/access-om3-8km-nomask-ESMFmesh_Charrassin_nocavity_cropped.nc@/g/data/jk72/ed7737/access-om3/inputs/4km-PanAntarctic/bathy_products/DTU_DKL/access-om3-4km-ML-DTU_DKL-nomask-ESMFmesh.nc@g' config.yaml
 
-    sed -i '' 's@/g/data/tm70/cy8964/mom6/input/input-8km/topog_Charrassin_nocavity_cropped.nc@/g/data/jk72/ed7737/access-om3/inputs/4km-PanAntarctic/bathy_products/DTU_DKL/topog.nc@g' config.yaml
+    sed -i '' 's@/g/data/tm70/cy8964/mom6/input/input-8km/access-om3-8km-rof-remap-weights_Charrassin_nocavity_cropped.nc@/g/data/jk72/ed7737/access-om3/inputs/4km-PanAntarctic/bathy_products/DTU_DKL/access-om3-4km-ML-DTU_DKL-rof-remap-weights.nc@g' config.yaml
+
+    sed -i '' 's@/g/data/tm70/cy8964/mom6/input/input-8km/kmt_Charrassin_nocavity_cropped.nc@/g/data/jk72/ed7737/access-om3/inputs/4km-PanAntarctic/bathy_products/DTU_DKL/kmt.nc@g' config.yaml
