@@ -1,0 +1,27 @@
+[project]
+name = "antarctic-bathymetry-project"
+version = "0.1.0"
+description = "Investigating how bathymetric uncertainty around Antarctica affects ocean and sea-ice analyses."
+readme = "README.md"
+requires-python = "==3.13.2"
+dependencies = [
+    "cartopy==0.25.0",
+    "dask[distributed]==2026.1.2",
+    "matplotlib==3.10.8",
+    "numpy==2.4.2",
+    "pandas==3.0.0",
+    "pygmt==0.18.0",
+    "tqdm==4.67.3",
+    "xarray==2026.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "black==26.1.0",
+    "pytest==9.0.2",
+    "ruff==0.15.0",
+]
+notebooks = [
+    "ipykernel==7.2.0",
+    "jupyterlab==4.5.4",
+]
