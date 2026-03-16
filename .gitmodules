@@ -1,3 +1,6 @@
 [submodule "make_OM3_panant_topo"]
 	path = make_OM3_panant_topo
 	url = git@github.com:edoddridge/make_OM3_panant_topo.git
+[submodule "geostrophic_basal_melt"]
+	path = geostrophic_basal_melt
+	url = git@github.com:garrettdreyfus/geostrophic_basal_melt.git
