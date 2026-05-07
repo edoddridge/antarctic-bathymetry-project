@@ -1,0 +1,7 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython profiles and config
+profile_default/
+ipython_config.py
