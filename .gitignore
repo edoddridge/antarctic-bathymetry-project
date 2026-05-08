@@ -5,3 +5,9 @@
 # IPython profiles and config
 profile_default/
 ipython_config.py
+
+# macOS files
+.DS_Store
+
+# VS Code files
+.vscode/
