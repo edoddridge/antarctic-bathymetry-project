@@ -24,4 +24,4 @@ set -e #exit on error
 
 cd /home/552/ed7737/coding-and-projects/panant_bathy_ensemble/antarctic-bathymetry-project/om3-scripts/restart_modifications
 
-python3 apply_bathy_mom_restarts.py --template_dir $template_dir --old_dir $old_dir --output_dir $output_dir --template_prefix access-om3.mom6.r.1900-01-01-00000 --old_prefix access-om3.mom6.r.1900-01-01-00000 --nprocs 4
+python3 apply_bathy_mom_restarts.py --template_dir $template_dir --old_dir $old_dir --output_dir $output_dir --template_prefix access-om3.mom6.r.1900-01-01-03600 --old_prefix access-om3.mom6.r.1900-03-01-00000 --nprocs 4

@@ -16,6 +16,7 @@ Workflow:
    - Changing experiment name: `experiment: XXX_template`
  - Run config in `template-restart-dirs`.
  - Run `apply_bathy_mom_restarts.py` on the output by using the shell script `modify-restarts.sh`
+   - Modify the `template_prefix` and `old_prefix` to match the target restarts.
 
     ```
     qsub -v template_dir="/path/to/template/restarts",old_dir="/path/to/spunup/restarts",output_dir="/path/to/save/perturbation/restarts" -P $PROJECT modify-restarts.sh
