@@ -4,3 +4,6 @@
 [submodule "geostrophic_basal_melt"]
 	path = geostrophic_basal_melt
 	url = git@github.com:garrettdreyfus/geostrophic_basal_melt.git
+[submodule "om3-scripts"]
+	path = om3-scripts
+	url = git@github.com:ACCESS-NRI/om3-scripts.git
