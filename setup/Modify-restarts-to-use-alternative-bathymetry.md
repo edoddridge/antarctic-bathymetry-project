@@ -15,6 +15,12 @@ Workflow:
    - modifying `restart_n`, `restart_option`, `stop_n`, and `stop_option`, in `nuopc.runconfig` to make the simulation run for a short time. Use `nhours` and set to 1. Options for `stop_option` apparently equal to those listed here: https://escomp.github.io/CMEPS/versions/master/html/generic.html NOTE: I tried `nsteps` and got SegFaults.
    - Changing experiment name: `experiment: XXX_template`
  - Run config in `template-restart-dirs`.
+ - Make sure all the restarts are collated
+
+ ```
+ payu collate -d path/to/restarts
+ ```
+
  - Run `apply_bathy_mom_restarts.py` on the output by using the shell script `modify-restarts.sh`
    - Modify the `template_prefix` and `old_prefix` to match the target restarts.
 
