@@ -28,7 +28,7 @@ Workflow:
    - Example for DTU_DKL:
 
     ```
-    qsub -v template_dir="/home/552/ed7737/coding-and-projects/panant_bathy_ensemble/control_dirs/template-restart-dirs/DTU_DKL/archive/restart000",old_dir="/home/552/ed7737/coding-and-projects/panant_bathy_ensemble/control_dirs/ac99c/archive/restart001",output_dir="/home/552/ed7737/coding-and-projects/panant_bathy_ensemble/control_dirs/DTU_DKL/restart_files" -P $PROJECT modify-restarts.sh
+    qsub -v template_dir="/home/552/ed7737/coding-and-projects/panant_bathy_ensemble/control_dirs/template-restart-dirs/DTU_DKL/archive/restart000",old_dir="/home/552/ed7737/coding-and-projects/panant_bathy_ensemble/control_dirs/ac99c/archive/restart001",output_dir="/g/data/jk72/ed7737/access-om3/modified-restarts/DTU_DKL" -P $PROJECT modify-restarts.sh
     ```
 
 
